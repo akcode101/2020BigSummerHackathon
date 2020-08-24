@@ -1,0 +1,15 @@
+library(ggplot2)
+#read/view data---
+
+dataInternationalCases=read.csv("Data/International/International_covid_cases_data.csv")
+dataInternationalCases$date=as.Date(dataInternationalCases$date)
+# dataInternationalDeaths=read.csv("Data/International/International_covid_deaths_data.csv")
+# dataInternationalDeaths$date=as.Date(dataInternationalDeaths$date)
+# dataAmericanCountyCases=read.csv("Data/US Counties/US_county_covid_cases_data.csv")
+# dataAmericanCountyCases$date=as.Date(dataAmericanCountyCases$date)
+# dataAmericanCountyDeaths=read.csv("Data/US Counties/US_county_covid_deaths_data.csv")
+# dataAmericanCountyDeaths$date=as.Date(dataAmericanCountyDeaths$date)
+# dataLosAngelesCases=read.csv("Data/LA/LA_cities_covid_data.csv")
+# dataLosAngelesCases$date=as.Date(dataLosAngelesCases$date)
+# head(dataLosAngelesCases)
+head(dataInternationalCases)
